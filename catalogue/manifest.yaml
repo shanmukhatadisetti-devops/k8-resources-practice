@@ -38,7 +38,7 @@ spec:
       containers:
       - name: catalogue
         image: shanmukhatadisetti/catalogue:v1
-        imagePullPolicy: always
+        imagePullPolicy: Always
         envFrom:
         - configMapRef:
             name: catalogue
