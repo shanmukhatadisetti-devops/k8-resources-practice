@@ -23,7 +23,7 @@ spec:
         spec:
             containers:
             - name: app1
-              image: app1:v1
+              image: shanmukhatadisetti/app1:v1
               imagePullPolicy: Always
 ---
 apiVersion: v1
