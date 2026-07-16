@@ -59,7 +59,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "app1.autonagar.in"
+  - host: "app1.autonager.in"
     http:
       paths:
       - pathType: Prefix
