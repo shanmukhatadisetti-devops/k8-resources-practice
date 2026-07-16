@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aws-cli
+  labels:
+    project: roboshop
+    component: aws-cli
+    type: testing
+spec:
+  containers:
+  - name: aws-cli
+    image: amazon/aws-cli
+    imagePullPolicy: Always
