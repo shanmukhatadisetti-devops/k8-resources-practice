@@ -12,4 +12,5 @@ spec:
   containers:
   - name: aws-cli
     image: amazon/aws-cli
+    command: ["sleep", "10000"]
     imagePullPolicy: Always
